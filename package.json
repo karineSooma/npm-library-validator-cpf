@@ -1,0 +1,25 @@
+{
+  "name": "npm-library-validator-cpf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karineSooma/npm-library-validator-cpf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karineSooma/npm-library-validator-cpf/issues"
+  },
+  "homepage": "https://github.com/karineSooma/npm-library-validator-cpf#readme"
+}
