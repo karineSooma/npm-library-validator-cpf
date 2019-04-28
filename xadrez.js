@@ -1,13 +1,13 @@
 function xadrez(peca1, peca2) {
-  if(peca1 === "rei" || peca2 === "peao"){
-    return "rei";
-}
+	if(peca1 === 'rei' || peca2 === 'peao'){
+		return 'rei';
+	}
 }
 
 
 function jogoX() {
-    return "rei";
-};
+	return 'rei';
+}
 
 
 module.exports.jogoX = jogoX;
