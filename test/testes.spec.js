@@ -1,11 +1,20 @@
 let chai = require("chai");
 let expect = chai.expect;
-var vai = ("../lib/xadrez");
+var cpfValidatorTeste = ("../index");
 
-describe("xadrez lib", () => {
-  describe("xadrez", () => {
-      it("rei ganha de peao", () => {
-        expect(vai.jogoX("rei", "peao")).to.equal("rei");
+describe("cpfValidator", () => {
+  describe("input validate", () => {
+      it("string is empty", () => {
+        expect(cpfValidatorTeste.cpfValidator("")).to.be.false;
+      });
+      it("input is repeated numbers", () => {
+        expect(cpfValidatorTeste.cpfValidator("99999999999")).to.be.false;
+      });
+      it("input is different to eleven numbers", () => {
+        expect(cpfValidatorTest.cpfValidator("123456789101")).to.be.false;
+      });
+      it("input has strings type", () => {
+        expect(cpfValidatorTest.cpfValidator("abcdefghijk")).to.be.false;
       });
     });
 });

@@ -15,7 +15,7 @@ module.exports = {
 	'rules': {
 		'indent': [
 			'error',
-			'tab'
+			2
 		],
 		'linebreak-style': [
 			'error',
@@ -28,6 +28,28 @@ module.exports = {
 		'semi': [
 			'error',
 			'always'
-		]
+    ],
+    
+    'padded-blocks': 
+    ['error', 
+    'never'
+    ],
+
+		'camelcase': 2,
+    'keyword-spacing': 2,
+    'space-infix-ops': 2,
+    'comma-spacing': 2,
+    'space-before-blocks': 2,
+    'spaced-comment': 2,
+    'key-spacing': 2,
+    'no-multi-spaces': 2,
+    'space-in-parens': 2,
+    'space-before-function-paren': 2,
+    'func-call-spacing': 2,
+    'no-multiple-empty-lines': 2,
+    'no-floating-decimal': 2,
+    'object-property-newline': 2,
+    'brace-style': 2,
+    'eqeqeq': 2
 	}
 };
