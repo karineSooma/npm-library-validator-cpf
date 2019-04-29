@@ -1,4 +1,4 @@
-function cpfConditions(cpf) {
+function cpfConditions (cpf) {
   if (cpf.length !== 11 ||
     cpf === '00000000000' ||
     cpf === '11111111111' ||
@@ -15,7 +15,7 @@ function cpfConditions(cpf) {
   return true;
 }
 
-function cpfValidator(strCpf) {
+function cpfValidator (strCpf) {
   if (cpfConditions(strCpf)) {
     let ten = 10;
     let numbersCpf = Array.from(strCpf);
@@ -48,5 +48,5 @@ function cpfValidator(strCpf) {
   }
   return false;
 }
-console.log(cpfValidator("38194779855"))
+console.log(cpfValidator('38194779855'));
 module.exports.cpfValidator = cpfValidator;
