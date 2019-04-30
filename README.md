@@ -1,6 +1,6 @@
 # npm-library-validator-cpf
 <br>
-  <p>**Esta biblioteca se destina a validação de cpf.** Na versão atual é capaz de identificar se o número digitado é válido ou não.</p><br>
+  <p><strong>Esta biblioteca se destina a validação de cpf.</strong> Na versão atual é capaz de identificar se o número digitado é válido ou não.</p><br>
 
 ## Como instalar:
 <p>$  npm install cpfvalidator-ks</p>
