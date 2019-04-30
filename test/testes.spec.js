@@ -1,9 +1,8 @@
 let chai = require('chai');
 let expect = chai.expect;
-var cpfValidatorTeste = ('../index');
+var cpfValidatorTeste = require('../lib/index');
 
 describe('cpfValidator', () => {
-  describe('string validate', () => {
     it('string is empty', () => {
       expect(cpfValidatorTeste.cpfValidator('')).to.be.false;
     });
@@ -11,13 +10,12 @@ describe('cpfValidator', () => {
       expect(cpfValidatorTeste.cpfValidator('12121212121')).to.be.false;
     });
     it('string has more than eleven numbers', () => {
-      expect(cpfValidatorTest.cpfValidator('123456789111')).to.be.false;
+      expect(cpfValidatorTeste.cpfValidator('123456789111')).to.be.false;
     });
     it('string has letters instead of numbers', () => {
-      expect(cpfValidatorTest.cpfValidator('abcdefghijk')).to.be.false;
+      expect(cpfValidatorTeste.cpfValidator('abcdefghijk')).to.be.false;
     });
   });
-});
 
 // let chai = require("chai");
 // let expect = chai.expect;
