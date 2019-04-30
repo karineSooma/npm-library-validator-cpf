@@ -1,7 +1,7 @@
 {
-  "name": "npm-library-validator-cpf",
+  "name": "cpfvalidator-ks",
   "version": "1.0.0",
-  "description": "",
+  "description": "Library that has the function of identifying whether a cpf is true or not.",
   "main": "index.js",
   "dependencies": {
     "chai": "^4.2.0"
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/karineSooma/npm-library-validator-cpf.git"
   },
-  "author": "",
+  "author": "Karine Sooma",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/karineSooma/npm-library-validator-cpf/issues"
