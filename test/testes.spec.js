@@ -1,6 +1,6 @@
 let chai = require('chai');
 let expect = chai.expect;
-var cpfValidatorTeste = require('../lib/index');
+let cpfValidatorTeste = require('../lib/index');
 
 describe('cpfValidator', () => {
   it('string is empty', () => {
