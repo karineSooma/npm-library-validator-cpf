@@ -18,5 +18,6 @@
 * Correção de bugs
 * README translated to english
 <br>
+
 ### versão 1.0.0 (released):
 * funcionalidades: validação de cpf, se é válido ou não.
