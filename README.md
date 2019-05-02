@@ -13,7 +13,6 @@
 <br>
 
 ## roadmap oficial do projeto
-<br>
 
 ### Versão 2.0.0:
 * Correção de bugs
