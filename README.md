@@ -14,6 +14,9 @@
 
 ## roadmap oficial do projeto
 <br>
-
+### Versão 2.0.0 
+* Correção de bugs
+* README translated to english
+<br>
 ### versão 1.0.0 (released):
 * funcionalidades: validação de cpf, se é válido ou não.
