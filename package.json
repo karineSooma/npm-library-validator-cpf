@@ -8,10 +8,11 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": " nyc mocha"
   },
   "repository": {
     "type": "git",
