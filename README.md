@@ -7,14 +7,19 @@
 <br>
 
 ## Como utilizar:
-* > const cpf = require('cpfvalidator-ks');
-* > console.log(cpf(38194779855))
-* > // returns true
-<br>
+
+```node
+
+ > const cpf = require('cpfvalidator-ks');
+ > console.log(cpf(38194779855))
+ > // returns true
+
+```
+
 
 ## roadmap oficial do projeto
 
-### Versão 2.0.0:
+### Versão 2.0.0 (sem previsão):
 * Correção de bugs
 * README translated to english
 <br>
