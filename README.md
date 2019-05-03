@@ -9,7 +9,7 @@
 ## Como utilizar:
 * > const cpf = require('cpfvalidator-ks');
 * > console.log(cpf(38194779855))
-* > // returns false
+* > // returns true
 <br>
 
 ## roadmap oficial do projeto
