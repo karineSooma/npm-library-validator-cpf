@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "Library that has the function of identifying whether a cpf is true or not.",
   "main": "index.js",
-  "dependencies": {
-    "chai": "^4.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.0"
   },
   "scripts": {
-    "test": " nyc mocha"
+    "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",

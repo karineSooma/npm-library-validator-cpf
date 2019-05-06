@@ -15,6 +15,12 @@ describe('cpfValidator', () => {
   it('string has letters instead of numbers', () => {
     expect(cpfValidatorTeste.cpfValidator('abcdefghijk')).to.be.false;
   });
+  it('string has number type', () => {
+    expect(cpfValidatorTest(12345678909)).to.be.true;
+  });
+  it('string has number type and special characters', () => {
+    expect(cpfValidatorTest('123.456.789-09')).to.be.true;
+  });
 });
 
 // let chai = require("chai");
