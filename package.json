@@ -2,7 +2,7 @@
   "name": "cpfvalidator-ks",
   "version": "1.0.0",
   "description": "Library that has the function of identifying whether a cpf is true or not.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
@@ -22,9 +22,5 @@
   "bugs": {
     "url": "https://github.com/karineSooma/npm-library-validator-cpf/issues"
   },
-  "homepage": "https://github.com/karineSooma/npm-library-validator-cpf#readme",
-  "directories": {
-    "lib": "lib",
-    "test": "test"
-  }
+  "homepage": "https://github.com/karineSooma/npm-library-validator-cpf#readme"
 }
