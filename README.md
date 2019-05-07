@@ -10,8 +10,8 @@
 
 ```node
 
- > const cpf = require('cpfvalidator-ks');
- > console.log(cpf('cpfNumberHere'))
+ > const cpfValidator = require('cpfvalidator-ks');
+ > console.log(cpfValidator('cpfNumberHere'))
  > // returns true
 
 ```
