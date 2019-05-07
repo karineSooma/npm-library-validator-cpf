@@ -11,7 +11,7 @@
 ```node
 
  > const cpf = require('cpfvalidator-ks');
- > console.log(cpf(38194779855))
+ > console.log(cpf('numeroDoCPFaqui'))
  > // returns true
 
 ```
